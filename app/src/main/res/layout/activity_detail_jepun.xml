@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailJepunActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ini Judul"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+
+            android:textStyle="bold"
+            android:id="@+id/a1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ges1"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/a1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/a2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ini lokasi"
+            android:textColor="@color/black"
+            android:layout_below="@+id/a2"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+
+            android:id="@+id/a3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ini tgl"
+            android:textColor="@color/black"
+            android:layout_below="@+id/a3"
+            android:textSize="15sp"
+
+            android:id="@+id/a4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ini lokasi"
+            android:textColor="@color/black"
+            android:layout_below="@+id/a4"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+
+            android:id="@+id/a5"
+            android:textAlignment="inherit"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
